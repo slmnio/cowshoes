@@ -1,0 +1,23 @@
+{
+  "name": "cowshoes",
+  "version": "1.0.0",
+  "description": "cowshoes server & agent",
+  "main": "src/index.js",
+  "repository": "https://github.com/slmnio/cowshoes.git",
+  "author": "Solomon Cammack <solomon@solomon.eu.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon src/index.js",
+    "serve-srs": "nodemon agent/srs.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
