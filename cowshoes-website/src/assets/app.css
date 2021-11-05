@@ -1,0 +1,23 @@
+.fs-0 {
+    flex-shrink: 0;
+}
+.t-l { text-align: left }
+.t-c { text-align: center }
+.t-r { text-align: right }
+.spacer {
+    width: 100%;
+}
+.f-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --theme: #19535F;
+    --text-on-theme: #fff;
+}
+
+.clickable {
+    cursor: pointer;
+}

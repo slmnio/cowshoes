@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "serve": "nodemon src/index.js",
-    "serve-srs": "nodemon agent/srs.js"
+    "serve": "nodemon server/src/index.js",
+    "serve-srs": "nodemon ../agent/srs.js"
   },
   "dependencies": {
     "axios": "^0.24.0",

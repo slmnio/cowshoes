@@ -10,7 +10,13 @@ async function send() {
         return;
     }
     axios.post("http://localhost:8269/status", {
-        host: "eu.cow.shoes",
+        meta: {
+            host: "eu.cow.shoes",
+            originalName: "SLMN Streambox",
+            hostedBy: "SLMN",
+            location_2: "DE",
+            location_3: "FRA"
+        },
         streams: monkyData.streams.map(streamData => {
             return {
                 isStreaming: !!(streamData.video && streamData.audio),
